@@ -24,11 +24,11 @@ public class Login {
     }
     @When("user memasukan NIK")
     public void inputNIK(){
-        loginPage.EnterNIK("680005");
+        loginPage.EnterNIK("xyz");
     }
     @And("user memasukan password")
     public void inputPassword(){
-        loginPage.EnterPassword("diarium@2022");
+        loginPage.EnterPassword("fortestonly");
     }
     @And("user click sign button")
     public void clickSignButton(){
